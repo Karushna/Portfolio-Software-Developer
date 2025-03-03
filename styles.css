@@ -1,0 +1,358 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    margin: 40px auto;
+    width: 80%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Contact Form */
+input, textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+/* Home Section */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.intro {
+    max-width: 600px;
+    text-align: left;
+    padding: 20px;
+}
+
+.highlight {
+    color: #0073e6;
+    font-weight: bold;
+}
+
+.profile-photo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* CTA Button */
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background: #005bb5;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.social-links a:hover {
+    color: #005bb5;
+}
+
+/* Project Page */
+#projects {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Project Cards */
+.project-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+}
+
+/* Project Section */
+#projects {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Project Row */
+.project-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    width: 80%;
+}
+
+/* Alternating Layout */
+.project-embed {
+    width: 45%;
+    padding: 10px;
+}
+
+.project-info {
+    width: 45%;
+    text-align: left;
+}
+
+/* Left-side Embed */
+.left {
+    order: 1;
+}
+
+/* Right-side Embed */
+.right {
+    order: 2;
+}
+
+/* Embedded Project View */
+iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Project Links */
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    background: #005bb5;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .project-row {
+        flex-direction: column;
+    }
+    
+    .project-embed, .project-info {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Contact Page */
+#contact {
+    text-align: center;
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #005bb5;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: block;
+    margin: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: #005bb5;
+}
+
+
+/* Experience Section */
+#experience {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+/* Roadmap */
+.roadmap {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Vertical Roadmap Line */
+.roadmap-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #0073e6;
+    transform: translateX(-50%);
+}
+
+/* Roadmap Items */
+.roadmap-item {
+    position: relative;
+    width: 45%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-in-out;
+}
+
+/* Left Items */
+.roadmap-item.left {
+    left: 0;
+    text-align: left;
+}
+
+/* Right Items */
+.roadmap-item.right {
+    left: 55%;
+    text-align: right;
+}
+
+/* Active Class for Animation */
+.roadmap-item.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .roadmap-line {
+        left: 5%;
+    }
+
+    .roadmap-item {
+        width: 90%;
+        left: 5%;
+        text-align: center;
+    }
+}
